@@ -1,0 +1,152 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    margin-bottom: 100px;
+}
+
+.link-header {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 120px;
+    margin-top: 0;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 71px;
+}
+
+h1 {
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    text-align: left;
+    margin-bottom: 47px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 500px;
+    margin-bottom: 55px;
+}
+
+.link-ler-mais {
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .link-header {
+        display: none;
+    }
+    
+    header {
+        margin-bottom: 10px;
+    }
+
+    .button-header {
+        margin-left: 60%;
+    }
+
+    .img-logo {
+        position: static;
+        max-width: 85%;
+        margin: 0 10px 0 30px;
+        flex-direction: column;
+        order: 1;
+        width: 595.18px;
+        height: 250px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+
+    section {
+        max-width: 70%;
+        margin: 30px;
+        text-align: center;
+    }
+
+    h1 {
+        width: 120%;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    p {
+        width: 120%;
+        text-align: center;
+        font-size: 18px;
+        line-height: 33px;
+        /* 183.333% */
+        letter-spacing: 0.5px;
+        margin-bottom: 30px;
+    }
+
+    .link-ler-mais {
+        padding-left: 50px;
+        margin-bottom: 10px;
+    }
+}
